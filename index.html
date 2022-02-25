@@ -12,17 +12,36 @@
 </head>
 
 <body>
-    <h1>To-Do List</h1>
+    <nav class="navbar navbar-light" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://cdn.pixabay.com/photo/2017/07/07/02/06/symbol-2480163_1280.png" alt="" width="28"
+                    height="24" class="d-inline-block align-text-top">
+                To-Do List
+            </a>
+        </div>
+    </nav>
+
+
 
     <div class="container">
         <div class="row justify-content-around">
-            <div class="col-5">
+            <div class="col-5" id="card1">
                 <div class="card-body">
-                    <h2> Add New Task</h2>
+                    <div class="col">
+                        <div class="row container">
+                            <h2> Add New Task</h2>
+                        </div>
+                        <div class="container row input-group input-group-lg">
+                            <!-- <span class="input-group-text" id="inputGroup-sizing-lg"></span> -->
+                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-lg" id="newtask" placeholder="e.g. Buy Eggs">
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-5">
+            <div class="col-5" id="card2">
                 <div class="card-body">
                     <h2> To-Do </h2>
                 </div>

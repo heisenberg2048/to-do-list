@@ -1,3 +1,25 @@
+
 *{
     text-align: center;
+}
+#navbar{
+    background-color: #f4a261;
+}
+#newtask{
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+    border-left-width: 0px;
+}
+#card1{
+    height: 550px;
+    margin-top: 4%;
+background-color: rgb(166, 210, 151);
+}
+#card2{ height: 550px;
+    margin-top: 23%;
+background-color: #b78ae1;
+}
+body { 
+    background-image: url('https://cdn.wallpapersafari.com/39/82/Ut80Xz.gif'); 
 }
