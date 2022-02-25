@@ -12,11 +12,11 @@
     border-left-width: 0px;
 }
 #card1{
-    height: 600px;
+    height: 550px;
     margin-top: 4%;
-background-color: rgb(166, 210, 151);
+background-color: olive;
 }
-#card2{ height: 600px;
+#card2{ height: 550px;
     margin-top: 4%;
 background-color: #b78ae1;
 }
@@ -24,5 +24,5 @@ background-color: #b78ae1;
     color:#b78ae1;
 }
 #todo{
-    color:rgb(166, 210, 151);
+    color:olive;
 }
