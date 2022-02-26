@@ -12,13 +12,24 @@
     border-left-width: 0px;
 }
 #card1{
-    height: 550px;
-    margin-top: 4%;
-background-color: olive;
+    height: 450px;
+    margin-top: 2%;
+    margin-bottom: 15%;
+    background-color: olive;
+    border-color:black;
+    border-width: 0.5em;
+    border-style:solid ;
+    border-bottom-right-radius: 10em;
 }
-#card2{ height: 550px;
-    margin-top: 4%;
-background-color: #b78ae1;
+#card2{ 
+    height: 450px;
+    margin-top: 15%;
+    background-color: #b78ae1;
+    border-color:black;
+    border-width: 0.5em;
+    border-style:solid ;
+    border-top-left-radius: 10em;
+
 }
 #addnewtask{
     color:#b78ae1;
