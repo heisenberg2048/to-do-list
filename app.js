@@ -22,9 +22,15 @@ addbutton.addEventListener('click', function (event) {
     task.innerText = newtask.value;
     task.classList.add('task');
 
+    const deletebutton = document.createElement('button');
+    deletebutton.innerText = "delete";
+
+
+
     const checktask = document.createElement('div');
     checktask.append(taskcheckbox);
     checktask.append(task);
+    checktask.append(deletebutton);
 
     newrow.append(checktask);
 
@@ -33,5 +39,8 @@ addbutton.addEventListener('click', function (event) {
 
     newtask.value = "";
 
+    deletebutton.addEventListener('click', function () {
+        newrow.remove();
+    });
 
 });
