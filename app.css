@@ -26,3 +26,6 @@ background-color: #b78ae1;
 #todo{
     color:olive;
 }
+.taskcheckbox:checked + .task{
+    text-decoration: line-through;
+}
