@@ -1,1 +1,45 @@
+*
+{
+    text-align: center;
+}
+body{
+    background-color: black;
+}
 
+img
+{
+    width: 10%;
+    height:10%;
+    border-color:white;
+    border-width: 2%;
+    border-style: solid;
+    border-radius: 10%;
+}
+img:hover{
+    box-shadow: 10px 5px 5px rgb(255, 255, 0);
+    border-color: magenta;
+    border-width: 5%;
+    border-style: solid;
+}
+#input
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#inputform
+{
+    border-color: cyan;
+    border-width: 5%;
+    border-style: solid;
+    width: 40%;
+}
+#inputform:hover{
+    box-shadow: 10px 5px 5px red;
+    border-color: magenta;
+    border-width: 5%;
+    border-style: solid;
+}
+.outerdiv
+{
+    margin-top: 4%;
+}
